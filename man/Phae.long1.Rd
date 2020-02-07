@@ -18,13 +18,4 @@ data(Phae.long1)
 \description{
 Audio recording #1 of \emph{Phaethornis longirostris} (Long-billed Hermit).
 }
-\examples{
-{
-
-data(Phae.long1)
-
-tuneR::nchannel(Phae.long1)
-} 
-
-}
 \keyword{datasets}

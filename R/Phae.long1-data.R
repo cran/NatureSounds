@@ -9,12 +9,6 @@
 #'   }
 #'   
 #' @usage data(Phae.long1)
-#' @examples{
-#' 
-#' data(Phae.long1)
-#' 
-#' tuneR::nchannel(Phae.long1)
-#' } 
 #' 
 #' @source \url{http://www.xeno-canto.org/contributor/EMCWQLLKEW}
 "Phae.long1" 
