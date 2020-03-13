@@ -1,6 +1,6 @@
-277be5cf57f560dff6a2e3885b642adc *DESCRIPTION
+ff2faf1b29e36be24e6b59038b7d183b *DESCRIPTION
 a37fe1d31116c03d4baad24e7a418102 *NAMESPACE
-28eb71b4f036ed448cf0172af870b959 *NEWS.md
+3dcd27574fbe1b762a11d30332cebe60 *NEWS.md
 5ab81093bf1f126571d62598f3f6077d *R/Cryp.soui-data.R
 1925309541e97c6c48b4e8e5c94f883c *R/NatureSounds-package.R
 123f56ce0ebcf7cdb514376aae0984c9 *R/Phae.long.est-data.R
@@ -11,8 +11,8 @@ a37fe1d31116c03d4baad24e7a418102 *NAMESPACE
 4127473349d5dccd54c76a2fe5ff5ff5 *R/lbh.est-data.R
 ad9efbd562412b081dde5a2b20e3f55d *R/monk.parakeet.est-data.R
 87afcbcc9a583d19728f343df2f34f0a *R/thyroptera.est-data.R
-a4eab8135ee09d44adf32916f39e030b *README.md
-66104c62034532d7f6e2521e1725f6f9 *build/vignette.rds
+a698b7120bb803c16484440b0209b0a0 *README.md
+16a6539fc9bb4ab8b0525447417e5e8b *build/vignette.rds
 070b6916d33f113ac8cc8561687ac3f9 *data/Cryp.soui.rda
 9135d94f33815af1beac2ae353079650 *data/Phae.long.est.rda
 3cfaf9e7dd3865f0090a60755d5767b2 *data/Phae.long1.rda
@@ -25,8 +25,8 @@ a7b89de24c9e82c631a8a2c0d34a4519 *data/lbh.est.rda
 804d3e506e4822f68211f91ac4fe9000 *data/thyroptera.est.rda
 bbe00330f018ba67df232e28e96e6c8b *inst/CITATION
 472eb83d69e422335ce014e6aabb0d3f *inst/doc/Acoustic_data_sets_in_NatureSounds.R
-506658174cd2a9b88a92a063900dd14b *inst/doc/Acoustic_data_sets_in_NatureSounds.Rmd
-7e0a9d2436e1f079372d3f8ef8e1d827 *inst/doc/Acoustic_data_sets_in_NatureSounds.html
+14eb47d3a29501503c32e01cba26db55 *inst/doc/Acoustic_data_sets_in_NatureSounds.Rmd
+f4ade72328c76b8ce3a8302af17bd9c6 *inst/doc/Acoustic_data_sets_in_NatureSounds.html
 83df03ffac67a57dd0203d66d7156644 *man/Cryp.soui.Rd
 48d35066bfafad098a208a79e29d4279 *man/NatureSounds.Rd
 483b9417666e2685bc0901126ee38773 *man/Phae.long.est.Rd
@@ -37,7 +37,7 @@ d23d1bc5f035531f3c8371e625941dee *man/Phae.long4.Rd
 ec0b3ae5120448442aacb60f42ca2b6b *man/lbh.est.Rd
 74e5a0b4b9ea0d6733590dc13566dc23 *man/monk.parakeet.est.Rd
 4c6e8ed845ecc3a056995f5e37f61982 *man/thyroptera.est.Rd
-506658174cd2a9b88a92a063900dd14b *vignettes/Acoustic_data_sets_in_NatureSounds.Rmd
+14eb47d3a29501503c32e01cba26db55 *vignettes/Acoustic_data_sets_in_NatureSounds.Rmd
 2b9c252a911e7618dd3c3cc79cf9c136 *vignettes/Cryp.soui.png
 0fef0b4815121e1e77b8aeec7e7de911 *vignettes/Phae.long1.png
 24a0638cfd7e924a91f94463b5bb10d0 *vignettes/Phae.long2.png
