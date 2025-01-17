@@ -1,3 +1,7 @@
+# *NatureSound 1.0.5*
+
+* Phae.long.est data set has been deprecated
+
 # *NatureSound 1.0.4*
 
 * Update requested by CRAN

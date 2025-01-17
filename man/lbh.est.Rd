@@ -11,7 +11,8 @@ One object of class extended selection table (following warbleR package format) 
 data(lbh.est)
 }
 \description{
-'lbh.est' contains an \emph{extented selection table} following the warbleR package object format. The data contains the annotations and wave objects of 50 long-billed hermit songs from 10 different song types (5 per song type, 'lek.song.type' column) recorded at 8 leks ('lek' column) in the Caribbean slope of Costa Rica.
+'lbh.est' contains an \emph{extented selection table} following the warbleR package object format. These is an R object that contains both the annotations (locations of signals in time and frequency) and the corresponding acoustic data as wave objects (\href{https://marce10.github.io/warbleR/articles/annotation_data_format.html#extended-selection-tables}{see a full description here}). Therefore, these are **self-contained objects** since the original sound files are no longer needed to perform acoustic analyses. These objects are created by the function `selection_table()` from \href{https://cran.r-project.org/package=warbleR}{warbleR}. 
+ The data contains the annotations and wave objects of 50 long-billed hermit songs from 10 different song types (5 per song type, 'lek.song.type' column) recorded at 8 leks ('lek' column) in the Caribbean slope of Costa Rica.
 }
 \details{
 Extended selection table of \emph{Phaethornis longirostris} (Long-billed Hermit) songs.

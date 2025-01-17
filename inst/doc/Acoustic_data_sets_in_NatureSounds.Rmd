@@ -32,16 +32,21 @@ editor_options:
 
 &nbsp; 
 
+<img src="NatureSounds_sticker.png" alt="NatureSounds logo" align="right" width = "25%" height="25%"/>
+
+
 [NatureSounds](https://cran.r-project.org/package=NatureSounds) contains a collection of animal sounds for bioacoustic analysis. The main goal is to provide example acoustic data to faciliate the development of bioacoustic tools in the R environment. At the same time, this data can be used as case studies for showing the functionality of tools already available in R. This tutorial offers a quick glance over the acoustic data sets included in the package.
 
-Most data sets are provided as extended selection tables. These are R objects that contains both the annotations (locations of signals in time and frequency) and the corresponding acoustic data as wave objects. Therefore, these are **self-contained objects** since the original sound files are no longer needed to perform acoustic analyses. These objects are created by the function `selection_table()` from [warbleR](https://cran.r-project.org/package=warbleR). Take a look at the [intro to warbleR vignette](https://cran.r-project.org/package=warbleR/vignettes/Intro_to_warbleR.html) for more details and check out the packages [warbleR](https://cran.r-project.org/package=warbleR),
+Most data sets are provided as extended selection tables. These are R objects that contain both the annotations (locations of signals in time and frequency) and the corresponding acoustic data as wave objects ([see a full description here](https://marce10.github.io/warbleR/articles/annotation_data_format.html#extended-selection-tables)). Therefore, these are **self-contained objects** since the original sound files are no longer needed to perform acoustic analyses. These objects are created by the function `selection_table()` from [warbleR](https://cran.r-project.org/package=warbleR). 
+
+Check out the packages [warbleR](https://cran.r-project.org/package=warbleR),
 [tuneR](https://cran.r-project.org/package=tuneR) and [seewave](https://cran.r-project.org/package=seewave) for sound file manipulation and analysis in R.
 
 &nbsp; 
 
 ## Long billed hermit songs
 
- The example data 'lbh.est' is an extended selection table containing long-billed hermit (*Phaethornis longirostris*) songs. The data contains the annotations and wave objects of 50 long-billed hermit songs from 10 different song types (5 per song type, 'lek.song.type' column) recorded at 8 leks ('lek' column) in the Caribbean slope of Costa Rica. This data set was used in [Araya-Salas et al 2019](#references-link) to show lek (social group) level signatures in song structure. See [this blog post](https://marce10.github.io/2019/08/13/group_signature_xcorr.html) for details on statistical analysis.
+ The example data 'lbh.est' is an extended selection table containing long-billed hermit (*Phaethornis longirostris*) songs. The data contains the annotations and wave objects of 50 long-billed hermit songs from 10 different song types (5 per song type, 'lek.song.type' column) recorded at 8 leks ('lek' column) in the Caribbean slope of Costa Rica. This data set was used in [Araya-Salas et al 2019](#references-link) to show lek (social group) level signatures in song structure. 
 
 The spectrograms of the song types can be displayed using the `catalog()` function from [warbleR](https://cran.r-project.org/package=warbleR):
 

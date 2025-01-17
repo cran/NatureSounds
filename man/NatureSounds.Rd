@@ -2,6 +2,7 @@
 % Please edit documentation in R/NatureSounds-package.R
 \docType{package}
 \name{NatureSounds}
+\alias{NatureSounds-package}
 \alias{NatureSounds}
 \title{AnimalSounds: Animal Sounds for Bioacustic Analysis}
 \description{
@@ -10,9 +11,17 @@ The main goal is to provide example recordings to faciliate the development of b
 tools in the R environment.
 }
 \details{
-Most data sets are provided as extended selection tables. These are R objects that contains both the annotations (locations of signals in time and frequency) and the corresponding acoustic data as wave objects. Therefore, these are **self-contained objects** since the original sound files are no longer needed to perform acoustic analyses. These objects are created by the `selection_table()` function from \href{https://cran.r-project.org/package=warbleR}{warbleR}. Take a look at the \href{https://cran.r-project.org/package=warbleR/vignettes/Intro_to_warbleR.html}{intro to warbleR vignette} for more details. Check out the packages \href{https://cran.r-project.org/package=warbleR}{warbleR}, \href{https://cran.r-project.org/package=tuneR}{tuneR} and \href{https://cran.r-project.org/package=seewave}{seewave} for sound file manipulation and analysis in R.
+Most data sets are provided as extended selection tables. These are R objects that contains both the annotations (locations of signals in time and frequency) and the corresponding acoustic data as wave objects (\href{https://marce10.github.io/warbleR/articles/annotation_data_format.html#extended-selection-tables}{see a full description here}). Therefore, these are **self-contained objects** since the original sound files are no longer needed to perform acoustic analyses. These objects are created by the function `selection_table()` from \href{https://cran.r-project.org/package=warbleR}{warbleR}.
 
 License: GPL (>= 2)
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/maRce10/NatureSounds}
+  \item Report bugs at \url{https://github.com/maRce10/NatureSounds/issues}
+}
+
 }
 \author{
 Marcelo Araya-Salas
